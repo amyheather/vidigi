@@ -412,8 +412,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       </div>
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
- <span class="menu-text">reference/index.qmd</span>
-  </li>
+  <div class="sidebar-item-container"> 
+  <a href="../reference/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Function reference</span></a>
+  </div>
+</li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true">
@@ -919,7 +922,7 @@ Important
 <p>‘event’: ‘arrival’</p>
 </div>
 </div>
-<div id="0a8c0a41" class="cell" data-execution_count="1">
+<div id="ec1aed55" class="cell" data-execution_count="1">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1" data-source-line-numbers="nil" data-code-line-numbers="nil"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>event_log.append(</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>      {<span class="st">'patient'</span>: unique_entity_identifier,</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>      <span class="st">'pathway'</span>: <span class="st">'Revision'</span>,</span>
@@ -946,7 +949,7 @@ Important
 <p>‘event’: ‘depart’</p>
 </div>
 </div>
-<div id="f9cdad61" class="cell" data-execution_count="2">
+<div id="2434bf63" class="cell" data-execution_count="2">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2" data-source-line-numbers="nil" data-code-line-numbers="nil"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>event_log.append(</span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>      {<span class="st">'patient'</span>: unique_entity_identifier,</span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>      <span class="st">'pathway'</span>: <span class="st">'Revision'</span>,</span>
@@ -991,7 +994,7 @@ Important
 <p>Patients will be ordered by the point at which they are added to the queue, with the first entries appearing at the front (bottom-right) of the queue.</p>
 <p>Record the time the entity begins queueing for a resource with an event_type of ‘queue’.</p>
 <p>You may use whatever string you wish to for the <code>event</code> name.</p>
-<div id="12455b82" class="cell" data-execution_count="3">
+<div id="d14ad1bf" class="cell" data-execution_count="3">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3" data-source-line-numbers="nil" data-code-line-numbers="nil"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>event_log.append(</span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>            {<span class="st">'patient'</span>: unique_entity_identifier,</span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>             <span class="st">'pathway'</span>: <span class="st">'High intensity'</span>,</span>
@@ -1009,7 +1012,7 @@ Important
 <p>In addition to the other fields, this also requires you to pass a <code>resource_id</code> argument. If you have set up your simpy store using the <code>populate_store</code> function from the <code>utils</code> module of the vidigi package, then your resources will have an ID attribute you can access in the way shown below after you have requested the resource with <code>.get()</code></p>
 <p>Record the time the resource begins use with an event_type of ‘resource_use’.</p>
 <p>You may use whatever string you wish to for the <code>event</code> name.</p>
-<div id="7f5e9533" class="cell" data-execution_count="4">
+<div id="bf6e3639" class="cell" data-execution_count="4">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4" data-source-line-numbers="nil" data-code-line-numbers="4,5,6,7,8,9,10,11,12"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># request the resource</span></span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>my_resource <span class="op">=</span> <span class="cf">yield</span> my_resource_store.get()</span>
 <span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a></span>
@@ -1027,7 +1030,7 @@ Important
 <p>Again, you may use whatever string you wish to for the <code>event</code> name.</p>
 <p>Once again, you must record the ID of the resource that is being freed up.</p>
 <p>You can do this before or after putting the resource back in the store.</p>
-<div id="49e365d4" class="cell" data-execution_count="5">
+<div id="5335025a" class="cell" data-execution_count="5">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5" data-source-line-numbers="nil" data-code-line-numbers="1,2,3,4,5,6,7,8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>event_log.append( </span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>            {<span class="st">'patient'</span>: unique_entity_identifier, </span>
 <span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>             <span class="st">'pathway'</span>: <span class="st">'My Pathway Name'</span>, </span>
