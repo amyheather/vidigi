@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>code_of_conduct – vidigi</title>
+<title>resources.populate_store – vidigi</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +19,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -243,7 +278,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../vidigi_docs/licence.html">Package Details</a></li><li class="breadcrumb-item"><a href="../vidigi_docs/code_of_conduct.html">Contributor Code of Conduct</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">vidigi Function Reference</li><li class="breadcrumb-item"><a href="../reference/resources.VidigiResource.html">Simpy Resource Classes</a></li><li class="breadcrumb-item"><a href="../reference/resources.populate_store.html">resources.populate_store</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -464,7 +499,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../reference/resources.populate_store.html" class="sidebar-item-text sidebar-link">
+  <a href="../reference/resources.populate_store.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">resources.populate_store</span></a>
   </div>
 </li>
@@ -670,7 +705,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../vidigi_docs/code_of_conduct.html" class="sidebar-item-text sidebar-link active">
+  <a href="../vidigi_docs/code_of_conduct.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Contributor Code of Conduct</span></a>
   </div>
 </li>
@@ -683,38 +718,93 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../vidigi_docs/licence.html">Package Details</a></li><li class="breadcrumb-item"><a href="../vidigi_docs/code_of_conduct.html">Contributor Code of Conduct</a></li></ol></nav></header>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">vidigi Function Reference</li><li class="breadcrumb-item"><a href="../reference/resources.VidigiResource.html">Simpy Resource Classes</a></li><li class="breadcrumb-item"><a href="../reference/resources.populate_store.html">resources.populate_store</a></li></ol></nav></header>
 
 
 
 
 
-<section id="code-of-conduct" class="level1">
-<h1>Code of Conduct</h1>
-<section id="our-pledge" class="level2">
-<h2 class="anchored" data-anchor-id="our-pledge">Our Pledge</h2>
-<p>We are committed to creating a welcoming and inclusive environment for everyone who participates in this project. We pledge to make participation in our community a harassment-free experience for all, regardless of: - Age - Body size - Disability - Ethnicity - Gender identity and expression - Level of experience - Nationality - Personal appearance - Race - Religion - Sexual identity and orientation</p>
+<section id="vidigi.resources.populate_store" class="level1">
+<h1>resources.populate_store</h1>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>resources.populate_store(num_resources, simpy_store, sim_env)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Populate a SimPy Store (or VidigiPriorityStore) with VidigiResource objects.</p>
+<p>This function creates a specified number of VidigiResource objects and adds them to a SimPy Store, a VidigiStore, or VidigiPriorityStore.</p>
+<p>Each VidigiResource is initialized with a capacity of 1 and a unique ID attribute, which is crucial for animation functions where you wish to show an individual entity consistently using the same resource.</p>
+<p>If using VidigiPriorityStore, you will need to pass the relevant priority in to the .get() argument when pulling a resource out of the store.</p>
+<section id="parameters" class="level2 doc-section doc-section-parameters">
+<h2 class="doc-section doc-section-parameters anchored" data-anchor-id="parameters">Parameters</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 8%">
+<col style="width: 46%">
+<col style="width: 38%">
+<col style="width: 6%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Default</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>num_resources</td>
+<td>int</td>
+<td>The number of VidigiResource objects to create and add to the store.</td>
+<td><em>required</em></td>
+</tr>
+<tr class="even">
+<td>simpy_store</td>
+<td>(simpy.Store, vidigi.resources.VidigiStore or vidigi.resources.VidigiPriorityStore)</td>
+<td>The SimPy Store object to populate with resources.</td>
+<td><em>required</em></td>
+</tr>
+<tr class="odd">
+<td>sim_env</td>
+<td>simpy.Environment</td>
+<td>The SimPy environment in which the resources and store exist.</td>
+<td><em>required</em></td>
+</tr>
+</tbody>
+</table>
 </section>
-<section id="our-standards" class="level2">
-<h2 class="anchored" data-anchor-id="our-standards">Our Standards</h2>
-<p>Examples of behavior that contributes to a positive environment include: - Being respectful and considerate in all interactions - Offering constructive feedback - Using inclusive language - Focusing on what is best for the community - Showing empathy toward other contributors</p>
-<p>Examples of unacceptable behavior include: - Harassment or discrimination of any kind - Personal attacks, trolling, or insulting comments - Public or private harassment - Publishing others’ private information without consent - Any conduct which could reasonably be considered inappropriate in a professional setting</p>
+<section id="returns" class="level2 doc-section doc-section-returns">
+<h2 class="doc-section doc-section-returns anchored" data-anchor-id="returns">Returns</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Name</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td></td>
+<td>None</td>
+<td></td>
+</tr>
+</tbody>
+</table>
 </section>
-<section id="our-responsibilities" class="level2">
-<h2 class="anchored" data-anchor-id="our-responsibilities">Our Responsibilities</h2>
-<p>Project maintainers are responsible for clarifying standards of acceptable behavior and are expected to take appropriate action in response to any unacceptable behavior. They have the right and responsibility to remove, edit, or reject contributions that do not align with this Code of Conduct.</p>
+<section id="notes" class="level2 doc-section doc-section-notes">
+<h2 class="doc-section doc-section-notes anchored" data-anchor-id="notes">Notes</h2>
+<ul>
+<li>Each VidigiResource is created with a capacity of 1.</li>
+<li>The ID attribute of each VidigiResource is set to its index in the creation loop plus one, ensuring unique IDs starting from 1.</li>
+<li>This function is typically used to initialize a pool of resources at the start of a simulation.</li>
+</ul>
 </section>
-<section id="scope" class="level2">
-<h2 class="anchored" data-anchor-id="scope">Scope</h2>
-<p>This Code of Conduct applies both within project spaces (e.g., GitHub issues, pull requests, discussions) and in public spaces when someone is representing the project or its community.</p>
-</section>
-<section id="enforcement" class="level2">
-<h2 class="anchored" data-anchor-id="enforcement">Enforcement</h2>
-<p>Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the maintainers via GitHub Issues or by direct contact. All complaints will be reviewed and investigated promptly and fairly.</p>
-</section>
-<section id="attribution" class="level2">
-<h2 class="anchored" data-anchor-id="attribution">Attribution</h2>
-<p>This Code of Conduct is adapted from the <a href="https://www.contributor-covenant.org/">Contributor Covenant</a>, version 2.1.</p>
+<section id="examples" class="level2 doc-section doc-section-examples">
+<h2 class="doc-section doc-section-examples anchored" data-anchor-id="examples">Examples</h2>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="op">&gt;&gt;&gt;</span> <span class="im">import</span> simpy</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="op">&gt;&gt;&gt;</span> env <span class="op">=</span> simpy.Environment()</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="op">&gt;&gt;&gt;</span> resource_store <span class="op">=</span> simpy.Store(env)</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="op">&gt;&gt;&gt;</span> populate_store(<span class="dv">5</span>, resource_store, env)</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="op">&gt;&gt;&gt;</span> <span class="bu">len</span>(resource_store.items)  <span class="co"># The store now contains 5 VidigiResource objects</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="dv">5</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 
 
 </section>

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>code_of_conduct – vidigi</title>
+<title>resources.vidigiprioritystore – vidigi</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +19,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -243,7 +278,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../vidigi_docs/licence.html">Package Details</a></li><li class="breadcrumb-item"><a href="../vidigi_docs/code_of_conduct.html">Contributor Code of Conduct</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">vidigi Function Reference</li><li class="breadcrumb-item"><a href="../reference/resources.VidigiResource.html">Simpy Resource Classes</a></li><li class="breadcrumb-item"><a href="../reference/resources.VidigiPriorityStore.html">resources.VidigiPriorityStore</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -458,7 +493,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../reference/resources.VidigiPriorityStore.html" class="sidebar-item-text sidebar-link">
+  <a href="../reference/resources.VidigiPriorityStore.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">resources.VidigiPriorityStore</span></a>
   </div>
 </li>
@@ -670,7 +705,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../vidigi_docs/code_of_conduct.html" class="sidebar-item-text sidebar-link active">
+  <a href="../vidigi_docs/code_of_conduct.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Contributor Code of Conduct</span></a>
   </div>
 </li>
@@ -683,40 +718,167 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../vidigi_docs/licence.html">Package Details</a></li><li class="breadcrumb-item"><a href="../vidigi_docs/code_of_conduct.html">Contributor Code of Conduct</a></li></ol></nav></header>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">vidigi Function Reference</li><li class="breadcrumb-item"><a href="../reference/resources.VidigiResource.html">Simpy Resource Classes</a></li><li class="breadcrumb-item"><a href="../reference/resources.VidigiPriorityStore.html">resources.VidigiPriorityStore</a></li></ol></nav></header>
 
 
 
 
 
-<section id="code-of-conduct" class="level1">
-<h1>Code of Conduct</h1>
-<section id="our-pledge" class="level2">
-<h2 class="anchored" data-anchor-id="our-pledge">Our Pledge</h2>
-<p>We are committed to creating a welcoming and inclusive environment for everyone who participates in this project. We pledge to make participation in our community a harassment-free experience for all, regardless of: - Age - Body size - Disability - Ethnicity - Gender identity and expression - Level of experience - Nationality - Personal appearance - Race - Religion - Sexual identity and orientation</p>
+<section id="vidigi.resources.VidigiPriorityStore" class="level1">
+<h1>resources.VidigiPriorityStore</h1>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>resources.VidigiPriorityStore(</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    <span class="va">self</span>,</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    env,</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    num_resources<span class="op">=</span><span class="va">None</span>,</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    capacity<span class="op">=</span><span class="bu">float</span>(<span class="st">'inf'</span>),</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>An optimized SimPy priority store that eliminates delays between resource release and acquisition by directly triggering waiting events.</p>
+<p>This implementation provides the same API as the original VidigiPriorityStore but with immediate resource handoff between processes.</p>
+<p>AI USE DISCLOSURE: This code was generated by Claude 3.7 Sonnet. It has been evaluated and tested by a human.</p>
+<section id="methods" class="level2">
+<h2 class="anchored" data-anchor-id="methods">Methods</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><a href="#vidigi.resources.VidigiPriorityStore.cancel_get">cancel_get</a></td>
+<td>Cancels a pending get request by removing it from the queue.</td>
+</tr>
+<tr class="even">
+<td><a href="#vidigi.resources.VidigiPriorityStore.get">get</a></td>
+<td>Create an event to get an item from the store.</td>
+</tr>
+<tr class="odd">
+<td><a href="#vidigi.resources.VidigiPriorityStore.get_direct">get_direct</a></td>
+<td>Get an item from the store without the context manager.</td>
+</tr>
+<tr class="even">
+<td><a href="#vidigi.resources.VidigiPriorityStore.populate">populate</a></td>
+<td>Populate this VidigiPriorityStore with VidigiResource objects.</td>
+</tr>
+<tr class="odd">
+<td><a href="#vidigi.resources.VidigiPriorityStore.put">put</a></td>
+<td>Put an item into the store.</td>
+</tr>
+<tr class="even">
+<td><a href="#vidigi.resources.VidigiPriorityStore.request">request</a></td>
+<td>Request context manager for getting an item from the store.</td>
+</tr>
+<tr class="odd">
+<td><a href="#vidigi.resources.VidigiPriorityStore.request_direct">request_direct</a></td>
+<td>Alias for get_direct() to maintain consistent API.</td>
+</tr>
+<tr class="even">
+<td><a href="#vidigi.resources.VidigiPriorityStore.return_item">return_item</a></td>
+<td>Return an item to the store and immediately process any waiting get requests.</td>
+</tr>
+</tbody>
+</table>
+<section id="vidigi.resources.VidigiPriorityStore.cancel_get" class="level3">
+<h3 class="anchored" data-anchor-id="vidigi.resources.VidigiPriorityStore.cancel_get">cancel_get</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>resources.VidigiPriorityStore.cancel_get(get_event)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Cancels a pending get request by removing it from the queue.</p>
 </section>
-<section id="our-standards" class="level2">
-<h2 class="anchored" data-anchor-id="our-standards">Our Standards</h2>
-<p>Examples of behavior that contributes to a positive environment include: - Being respectful and considerate in all interactions - Offering constructive feedback - Using inclusive language - Focusing on what is best for the community - Showing empathy toward other contributors</p>
-<p>Examples of unacceptable behavior include: - Harassment or discrimination of any kind - Personal attacks, trolling, or insulting comments - Public or private harassment - Publishing others’ private information without consent - Any conduct which could reasonably be considered inappropriate in a professional setting</p>
+<section id="vidigi.resources.VidigiPriorityStore.get" class="level3">
+<h3 class="anchored" data-anchor-id="vidigi.resources.VidigiPriorityStore.get">get</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>resources.VidigiPriorityStore.get(priority<span class="op">=</span><span class="dv">0</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Create an event to get an item from the store.</p>
+<p>Args: priority: Lower values indicate higher priority (default: 0)</p>
+<p>Returns: A get event that can be yielded</p>
 </section>
-<section id="our-responsibilities" class="level2">
-<h2 class="anchored" data-anchor-id="our-responsibilities">Our Responsibilities</h2>
-<p>Project maintainers are responsible for clarifying standards of acceptable behavior and are expected to take appropriate action in response to any unacceptable behavior. They have the right and responsibility to remove, edit, or reject contributions that do not align with this Code of Conduct.</p>
+<section id="vidigi.resources.VidigiPriorityStore.get_direct" class="level3">
+<h3 class="anchored" data-anchor-id="vidigi.resources.VidigiPriorityStore.get_direct">get_direct</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>resources.VidigiPriorityStore.get_direct(priority<span class="op">=</span><span class="dv">0</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Get an item from the store without the context manager. Use this if you don’t want to automatically return the item.</p>
+<p>Returns: A get event that can be yielded</p>
 </section>
-<section id="scope" class="level2">
-<h2 class="anchored" data-anchor-id="scope">Scope</h2>
-<p>This Code of Conduct applies both within project spaces (e.g., GitHub issues, pull requests, discussions) and in public spaces when someone is representing the project or its community.</p>
+<section id="vidigi.resources.VidigiPriorityStore.populate" class="level3">
+<h3 class="anchored" data-anchor-id="vidigi.resources.VidigiPriorityStore.populate">populate</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>resources.VidigiPriorityStore.populate(num_resources)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Populate this VidigiPriorityStore with VidigiResource objects.</p>
+<p>Creates <code>num_resources</code> VidigiResource objects and adds them to this store.</p>
+<p>Each VidigiResource is initialized with a capacity of 1 and a unique ID starting at 1.</p>
+<section id="parameters" class="level4 doc-section doc-section-parameters">
+<h4 class="doc-section doc-section-parameters anchored" data-anchor-id="parameters">Parameters</h4>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 14%">
+<col style="width: 7%">
+<col style="width: 66%">
+<col style="width: 11%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Default</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>num_resources</td>
+<td>int</td>
+<td>The number of VidigiResource objects to create and add to the store.</td>
+<td><em>required</em></td>
+</tr>
+</tbody>
+</table>
 </section>
-<section id="enforcement" class="level2">
-<h2 class="anchored" data-anchor-id="enforcement">Enforcement</h2>
-<p>Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the maintainers via GitHub Issues or by direct contact. All complaints will be reviewed and investigated promptly and fairly.</p>
+<section id="returns" class="level4 doc-section doc-section-returns">
+<h4 class="doc-section doc-section-returns anchored" data-anchor-id="returns">Returns</h4>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Name</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td></td>
+<td>None</td>
+<td></td>
+</tr>
+</tbody>
+</table>
 </section>
-<section id="attribution" class="level2">
-<h2 class="anchored" data-anchor-id="attribution">Attribution</h2>
-<p>This Code of Conduct is adapted from the <a href="https://www.contributor-covenant.org/">Contributor Covenant</a>, version 2.1.</p>
+</section>
+<section id="vidigi.resources.VidigiPriorityStore.put" class="level3">
+<h3 class="anchored" data-anchor-id="vidigi.resources.VidigiPriorityStore.put">put</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>resources.VidigiPriorityStore.put(item)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Put an item into the store.</p>
+<p>Args: item: The item to put in the store</p>
+<p>Returns: A put event that can be yielded</p>
+</section>
+<section id="vidigi.resources.VidigiPriorityStore.request" class="level3">
+<h3 class="anchored" data-anchor-id="vidigi.resources.VidigiPriorityStore.request">request</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>resources.VidigiPriorityStore.request(priority<span class="op">=</span><span class="dv">0</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Request context manager for getting an item from the store. The item is automatically returned when exiting the context.</p>
+<p>Args: priority: Lower values indicate higher priority (default: 0)</p>
+<p>Returns: A context manager that yields the get event and handles item return</p>
+</section>
+<section id="vidigi.resources.VidigiPriorityStore.request_direct" class="level3">
+<h3 class="anchored" data-anchor-id="vidigi.resources.VidigiPriorityStore.request_direct">request_direct</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>resources.VidigiPriorityStore.request_direct(priority<span class="op">=</span><span class="dv">0</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Alias for get_direct() to maintain consistent API.</p>
+<p>Returns: A get event that can be yielded</p>
+</section>
+<section id="vidigi.resources.VidigiPriorityStore.return_item" class="level3">
+<h3 class="anchored" data-anchor-id="vidigi.resources.VidigiPriorityStore.return_item">return_item</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>resources.VidigiPriorityStore.return_item(item)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Return an item to the store and immediately process any waiting get requests.</p>
+<p>This is the key to eliminating delays - it directly triggers waiting get requests without going through the normal put/get mechanism.</p>
+<p>Args: item: The item to return to the store</p>
 
 
+</section>
 </section>
 </section>
 

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>code_of_conduct – vidigi</title>
+<title>prep.generate_animation_df – vidigi</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +19,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -243,7 +278,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../vidigi_docs/licence.html">Package Details</a></li><li class="breadcrumb-item"><a href="../vidigi_docs/code_of_conduct.html">Contributor Code of Conduct</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">vidigi Function Reference</li><li class="breadcrumb-item"><a href="../reference/prep.reshape_for_animations.html">Step-By-Step Functions</a></li><li class="breadcrumb-item"><a href="../reference/prep.generate_animation_df.html">prep.generate_animation_df</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -406,7 +441,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../reference/prep.generate_animation_df.html" class="sidebar-item-text sidebar-link">
+  <a href="../reference/prep.generate_animation_df.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">prep.generate_animation_df</span></a>
   </div>
 </li>
@@ -670,7 +705,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../vidigi_docs/code_of_conduct.html" class="sidebar-item-text sidebar-link active">
+  <a href="../vidigi_docs/code_of_conduct.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Contributor Code of Conduct</span></a>
   </div>
 </li>
@@ -683,38 +718,213 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../vidigi_docs/licence.html">Package Details</a></li><li class="breadcrumb-item"><a href="../vidigi_docs/code_of_conduct.html">Contributor Code of Conduct</a></li></ol></nav></header>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">vidigi Function Reference</li><li class="breadcrumb-item"><a href="../reference/prep.reshape_for_animations.html">Step-By-Step Functions</a></li><li class="breadcrumb-item"><a href="../reference/prep.generate_animation_df.html">prep.generate_animation_df</a></li></ol></nav></header>
 
 
 
 
 
-<section id="code-of-conduct" class="level1">
-<h1>Code of Conduct</h1>
-<section id="our-pledge" class="level2">
-<h2 class="anchored" data-anchor-id="our-pledge">Our Pledge</h2>
-<p>We are committed to creating a welcoming and inclusive environment for everyone who participates in this project. We pledge to make participation in our community a harassment-free experience for all, regardless of: - Age - Body size - Disability - Ethnicity - Gender identity and expression - Level of experience - Nationality - Personal appearance - Race - Religion - Sexual identity and orientation</p>
+<section id="vidigi.prep.generate_animation_df" class="level1">
+<h1>prep.generate_animation_df</h1>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>prep.generate_animation_df(</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    full_entity_df,</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    event_position_df,</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    wrap_queues_at<span class="op">=</span><span class="dv">20</span>,</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    wrap_resources_at<span class="op">=</span><span class="dv">20</span>,</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    step_snapshot_max<span class="op">=</span><span class="dv">50</span>,</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    gap_between_entities<span class="op">=</span><span class="dv">10</span>,</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>    gap_between_resources<span class="op">=</span><span class="dv">10</span>,</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>    gap_between_resource_rows<span class="op">=</span><span class="dv">30</span>,</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>    gap_between_queue_rows<span class="op">=</span><span class="dv">30</span>,</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>    time_col_name<span class="op">=</span><span class="st">'time'</span>,</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>    entity_col_name<span class="op">=</span><span class="st">'entity_id'</span>,</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>    event_type_col_name<span class="op">=</span><span class="st">'event_type'</span>,</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>    event_col_name<span class="op">=</span><span class="st">'event'</span>,</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>    resource_col_name<span class="op">=</span><span class="st">'resource_id'</span>,</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>    debug_mode<span class="op">=</span><span class="va">False</span>,</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>    custom_entity_icon_list<span class="op">=</span><span class="va">None</span>,</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>    include_fun_emojis<span class="op">=</span><span class="va">False</span>,</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>    save_intermediate_outputs<span class="op">=</span><span class="va">False</span>,</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>    minimize_output_df<span class="op">=</span><span class="va">True</span>,</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>    step_snapshot_limit_gauges<span class="op">=</span><span class="va">False</span>,</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>    gauge_segments<span class="op">=</span><span class="dv">10</span>,</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>    gauge_max_override<span class="op">=</span><span class="va">None</span>,</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Generate a DataFrame for animation purposes by adding position information to entity data.</p>
+<p>This function takes entity event data and adds positional information for visualization, handling both queuing and resource use events.</p>
+<section id="parameters" class="level2 doc-section doc-section-parameters">
+<h2 class="doc-section doc-section-parameters anchored" data-anchor-id="parameters">Parameters</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 7%">
+<col style="width: 8%">
+<col style="width: 79%">
+<col style="width: 4%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Default</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>full_entity_df</td>
+<td>pd.DataFrame</td>
+<td>Output of reshape_for_animation(), containing entity event data.</td>
+<td><em>required</em></td>
+</tr>
+<tr class="even">
+<td>event_position_df</td>
+<td>pd.DataFrame</td>
+<td>DataFrame with columns ‘event’, ‘x’, and ‘y’, specifying initial positions for each event type.</td>
+<td><em>required</em></td>
+</tr>
+<tr class="odd">
+<td>wrap_queues_at</td>
+<td>int</td>
+<td>Number of entities in a queue before wrapping to a new row (default is 20).</td>
+<td><code>20</code></td>
+</tr>
+<tr class="even">
+<td>wrap_resources_at</td>
+<td>int</td>
+<td>Number of resources to show before wrapping to a new row (default is 20).</td>
+<td><code>20</code></td>
+</tr>
+<tr class="odd">
+<td>step_snapshot_max</td>
+<td>int</td>
+<td>Maximum number of patients to show in each snapshot (default is 50).</td>
+<td><code>50</code></td>
+</tr>
+<tr class="even">
+<td>gap_between_entities</td>
+<td>int</td>
+<td>Horizontal spacing between entities in pixels (default is 10).</td>
+<td><code>10</code></td>
+</tr>
+<tr class="odd">
+<td>gap_between_resources</td>
+<td>int</td>
+<td>Horizontal spacing between resources in pixels (default is 10).</td>
+<td><code>10</code></td>
+</tr>
+<tr class="even">
+<td>gap_between_queue_rows</td>
+<td>int</td>
+<td>Vertical spacing between rows in pixels (default is 30).</td>
+<td><code>30</code></td>
+</tr>
+<tr class="odd">
+<td>gap_between_resource_rows</td>
+<td>int</td>
+<td>Vertical spacing between rows in pixels (default is 30).</td>
+<td><code>30</code></td>
+</tr>
+<tr class="even">
+<td>time_col_name</td>
+<td>str</td>
+<td>Name of the column in <code>event_log</code> that contains the timestamp of each event. Timestamps should represent the number of time units since the simulation began.</td>
+<td><code>"time"</code></td>
+</tr>
+<tr class="odd">
+<td>entity_col_name</td>
+<td>str</td>
+<td>Name of the column in <code>event_log</code> that contains the unique identifier for each entity (e.g., “entity_id”, “entity”, “patient”, “patient_id”, “customer”, “ID”).</td>
+<td><code>"entity_id"</code></td>
+</tr>
+<tr class="even">
+<td>event_type_col_name</td>
+<td>str</td>
+<td>Name of the column in <code>event_log</code> that specifies the category of the event. Supported event types include ‘arrival_departure’, ‘resource_use’, ‘resource_use_end’, and ‘queue’.</td>
+<td><code>"event_type"</code></td>
+</tr>
+<tr class="odd">
+<td>resource_col_name</td>
+<td>str</td>
+<td>Name of the column for the resource identifier. Used for ‘resource_use’ events.</td>
+<td><code>"resource_id"</code></td>
+</tr>
+<tr class="even">
+<td>event_col_name</td>
+<td>str</td>
+<td>Name of the column in <code>event_log</code> that specifies the actual event that occurred.</td>
+<td><code>"event"</code></td>
+</tr>
+<tr class="odd">
+<td>debug_mode</td>
+<td>bool</td>
+<td>If True, print debug information during processing (default is False).</td>
+<td><code>False</code></td>
+</tr>
+<tr class="even">
+<td>custom_entity_icon_list</td>
+<td>list</td>
+<td>If provided, will be used as the list for entity icons. Once the end of the list is reached, it will loop back around to the beginning (so e.g.&nbsp;if a list of 8 icons is provided, entities 1 to 8 will use the provided emoji list, and then entity 9 will use the same icon as entity 1, and so on.)</td>
+<td><code>None</code></td>
+</tr>
+<tr class="odd">
+<td>include_fun_emojis</td>
+<td>bool</td>
+<td>If True, include the more ‘fun’ emojis, such as Santa Claus. Ignored if a custom entity icon list is passed.</td>
+<td><code>False</code></td>
+</tr>
+<tr class="even">
+<td>save_intermediate_outputs</td>
+<td>Optional[Union[bool, str]]</td>
+<td>For debugging purposes. If True or a string, output a series of csvs with intermediate transformed dataframes. If a string is passed, this will be interpreted as the path to prefix the dataframes with. Default is False.</td>
+<td><code>False</code></td>
+</tr>
+<tr class="odd">
+<td>step_snapshot_limit_gauges</td>
+<td></td>
+<td>If True, replaces the text ‘+ x more’ with a gauge. The upper limit of the gauge is set by the maximum queue length observed across the simulation.</td>
+<td><code>False</code></td>
+</tr>
+</tbody>
+</table>
 </section>
-<section id="our-standards" class="level2">
-<h2 class="anchored" data-anchor-id="our-standards">Our Standards</h2>
-<p>Examples of behavior that contributes to a positive environment include: - Being respectful and considerate in all interactions - Offering constructive feedback - Using inclusive language - Focusing on what is best for the community - Showing empathy toward other contributors</p>
-<p>Examples of unacceptable behavior include: - Harassment or discrimination of any kind - Personal attacks, trolling, or insulting comments - Public or private harassment - Publishing others’ private information without consent - Any conduct which could reasonably be considered inappropriate in a professional setting</p>
+<section id="returns" class="level2 doc-section doc-section-returns">
+<h2 class="doc-section doc-section-returns anchored" data-anchor-id="returns">Returns</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 7%">
+<col style="width: 13%">
+<col style="width: 78%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Name</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td></td>
+<td>pd.DataFrame</td>
+<td>A DataFrame with added columns for x and y positions, and icons for each entity.</td>
+</tr>
+</tbody>
+</table>
 </section>
-<section id="our-responsibilities" class="level2">
-<h2 class="anchored" data-anchor-id="our-responsibilities">Our Responsibilities</h2>
-<p>Project maintainers are responsible for clarifying standards of acceptable behavior and are expected to take appropriate action in response to any unacceptable behavior. They have the right and responsibility to remove, edit, or reject contributions that do not align with this Code of Conduct.</p>
+<section id="notes" class="level2 doc-section doc-section-notes">
+<h2 class="doc-section doc-section-notes anchored" data-anchor-id="notes">Notes</h2>
+<ul>
+<li>The function handles both queuing and resource use events differently.</li>
+<li>It assigns unique icons to entities for visualization.</li>
+<li>Queues can be wrapped to multiple rows if they exceed a specified length.</li>
+<li>The function adds a visual indicator for additional entities when exceeding the snapshot limit.</li>
+</ul>
 </section>
-<section id="scope" class="level2">
-<h2 class="anchored" data-anchor-id="scope">Scope</h2>
-<p>This Code of Conduct applies both within project spaces (e.g., GitHub issues, pull requests, discussions) and in public spaces when someone is representing the project or its community.</p>
-</section>
-<section id="enforcement" class="level2">
-<h2 class="anchored" data-anchor-id="enforcement">Enforcement</h2>
-<p>Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the maintainers via GitHub Issues or by direct contact. All complaints will be reviewed and investigated promptly and fairly.</p>
-</section>
-<section id="attribution" class="level2">
-<h2 class="anchored" data-anchor-id="attribution">Attribution</h2>
-<p>This Code of Conduct is adapted from the <a href="https://www.contributor-covenant.org/">Contributor Covenant</a>, version 2.1.</p>
+<section id="todo" class="level2 doc-section doc-section-todo">
+<h2 class="doc-section doc-section-todo anchored" data-anchor-id="todo">TODO</h2>
+<ul>
+<li>Write a test to ensure that no entity ID appears in multiple places at a single time unit.</li>
+</ul>
 
 
 </section>

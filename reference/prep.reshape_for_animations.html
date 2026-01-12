@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>code_of_conduct – vidigi</title>
+<title>prep.reshape_for_animations – vidigi</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +19,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -243,7 +278,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../vidigi_docs/licence.html">Package Details</a></li><li class="breadcrumb-item"><a href="../vidigi_docs/code_of_conduct.html">Contributor Code of Conduct</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">vidigi Function Reference</li><li class="breadcrumb-item"><a href="../reference/prep.reshape_for_animations.html">Step-By-Step Functions</a></li><li class="breadcrumb-item"><a href="../reference/prep.reshape_for_animations.html">prep.reshape_for_animations</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -400,7 +435,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../reference/prep.reshape_for_animations.html" class="sidebar-item-text sidebar-link">
+  <a href="../reference/prep.reshape_for_animations.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">prep.reshape_for_animations</span></a>
   </div>
 </li>
@@ -670,7 +705,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../vidigi_docs/code_of_conduct.html" class="sidebar-item-text sidebar-link active">
+  <a href="../vidigi_docs/code_of_conduct.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Contributor Code of Conduct</span></a>
   </div>
 </li>
@@ -683,38 +718,160 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../vidigi_docs/licence.html">Package Details</a></li><li class="breadcrumb-item"><a href="../vidigi_docs/code_of_conduct.html">Contributor Code of Conduct</a></li></ol></nav></header>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">vidigi Function Reference</li><li class="breadcrumb-item"><a href="../reference/prep.reshape_for_animations.html">Step-By-Step Functions</a></li><li class="breadcrumb-item"><a href="../reference/prep.reshape_for_animations.html">prep.reshape_for_animations</a></li></ol></nav></header>
 
 
 
 
 
-<section id="code-of-conduct" class="level1">
-<h1>Code of Conduct</h1>
-<section id="our-pledge" class="level2">
-<h2 class="anchored" data-anchor-id="our-pledge">Our Pledge</h2>
-<p>We are committed to creating a welcoming and inclusive environment for everyone who participates in this project. We pledge to make participation in our community a harassment-free experience for all, regardless of: - Age - Body size - Disability - Ethnicity - Gender identity and expression - Level of experience - Nationality - Personal appearance - Race - Religion - Sexual identity and orientation</p>
+<section id="vidigi.prep.reshape_for_animations" class="level1">
+<h1>prep.reshape_for_animations</h1>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>prep.reshape_for_animations(</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    event_log,</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    every_x_time_units<span class="op">=</span><span class="dv">10</span>,</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    limit_duration<span class="op">=</span><span class="dv">10</span> <span class="op">*</span> <span class="dv">60</span> <span class="op">*</span> <span class="dv">24</span>,</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    step_snapshot_max<span class="op">=</span><span class="dv">50</span>,</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    time_col_name<span class="op">=</span><span class="st">'time'</span>,</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    entity_col_name<span class="op">=</span><span class="st">'entity_id'</span>,</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>    event_type_col_name<span class="op">=</span><span class="st">'event_type'</span>,</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>    event_col_name<span class="op">=</span><span class="st">'event'</span>,</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>    pathway_col_name<span class="op">=</span><span class="va">None</span>,</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>    debug_mode<span class="op">=</span><span class="va">False</span>,</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>    save_intermediate_outputs<span class="op">=</span><span class="va">False</span>,</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Reshape event log data for animation purposes.</p>
+<p>This function processes an event log to create a series of snapshots at regular time intervals, suitable for creating animations of patient flow through a system.</p>
+<section id="parameters" class="level2 doc-section doc-section-parameters">
+<h2 class="doc-section doc-section-parameters anchored" data-anchor-id="parameters">Parameters</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 9%">
+<col style="width: 10%">
+<col style="width: 74%">
+<col style="width: 5%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Default</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>event_log</td>
+<td>pd.DataFrame</td>
+<td>The input event log containing entity events and timestamps in the form of a number of time units since the simulation began.</td>
+<td><em>required</em></td>
+</tr>
+<tr class="even">
+<td>every_x_time_units</td>
+<td>int</td>
+<td>The time interval between snapshots in preferred time units (default is 10).</td>
+<td><code>10</code></td>
+</tr>
+<tr class="odd">
+<td>limit_duration</td>
+<td>int</td>
+<td>The maximum duration to consider in preferred time units (default is 10 days).</td>
+<td><code>10 * 60 * 24</code></td>
+</tr>
+<tr class="even">
+<td>step_snapshot_max</td>
+<td>int</td>
+<td>The maximum number of entities to include in each snapshot for each event (default is 50).</td>
+<td><code>50</code></td>
+</tr>
+<tr class="odd">
+<td>time_col_name</td>
+<td>str</td>
+<td>Name of the column in <code>event_log</code> that contains the timestamp of each event. Timestamps should represent the number of time units since the simulation began.</td>
+<td><code>"time"</code></td>
+</tr>
+<tr class="even">
+<td>entity_col_name</td>
+<td>str</td>
+<td>Name of the column in <code>event_log</code> that contains the unique identifier for each entity (e.g., “entity_id”, “entity”, “patient”, “patient_id”, “customer”, “ID”).</td>
+<td><code>"entity_id"</code></td>
+</tr>
+<tr class="odd">
+<td>event_type_col_name</td>
+<td>str</td>
+<td>Name of the column in <code>event_log</code> that specifies the category of the event. Supported event types include ‘arrival_departure’, ‘resource_use’, ‘resource_use_end’, and ‘queue’.</td>
+<td><code>"event_type"</code></td>
+</tr>
+<tr class="even">
+<td>event_col_name</td>
+<td>str</td>
+<td>Name of the column in <code>event_log</code> that specifies the actual event that occurred.</td>
+<td><code>"event"</code></td>
+</tr>
+<tr class="odd">
+<td>pathway_col_name</td>
+<td>str</td>
+<td>Name of the column in <code>event_log</code> that identifies the specific pathway or process flow the entity is following. If <code>None</code>, it is assumed that pathway information is not present.</td>
+<td><code>None</code></td>
+</tr>
+<tr class="even">
+<td>debug_mode</td>
+<td>bool</td>
+<td>If True, print debug information during processing (default is False).</td>
+<td><code>False</code></td>
+</tr>
+<tr class="odd">
+<td>save_intermediate_outputs</td>
+<td>Optional[Union[bool, str]]</td>
+<td>For debugging purposes. If True or a string, output a series of csvs with intermediate transformed dataframes. If a string is passed, this will be interpreted as the path to prefix the dataframes with. Default is False.</td>
+<td><code>False</code></td>
+</tr>
+</tbody>
+</table>
 </section>
-<section id="our-standards" class="level2">
-<h2 class="anchored" data-anchor-id="our-standards">Our Standards</h2>
-<p>Examples of behavior that contributes to a positive environment include: - Being respectful and considerate in all interactions - Offering constructive feedback - Using inclusive language - Focusing on what is best for the community - Showing empathy toward other contributors</p>
-<p>Examples of unacceptable behavior include: - Harassment or discrimination of any kind - Personal attacks, trolling, or insulting comments - Public or private harassment - Publishing others’ private information without consent - Any conduct which could reasonably be considered inappropriate in a professional setting</p>
+<section id="returns" class="level2 doc-section doc-section-returns">
+<h2 class="doc-section doc-section-returns anchored" data-anchor-id="returns">Returns</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 5%">
+<col style="width: 8%">
+<col style="width: 86%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Name</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td></td>
+<td>DataFrame</td>
+<td>A reshaped DataFrame containing snapshots of entity positions at regular time intervals, sorted by minute and event.</td>
+</tr>
+</tbody>
+</table>
 </section>
-<section id="our-responsibilities" class="level2">
-<h2 class="anchored" data-anchor-id="our-responsibilities">Our Responsibilities</h2>
-<p>Project maintainers are responsible for clarifying standards of acceptable behavior and are expected to take appropriate action in response to any unacceptable behavior. They have the right and responsibility to remove, edit, or reject contributions that do not align with this Code of Conduct.</p>
+<section id="notes" class="level2 doc-section doc-section-notes">
+<h2 class="doc-section doc-section-notes anchored" data-anchor-id="notes">Notes</h2>
+<ul>
+<li>The function creates snapshots of entity positions at specified time intervals.</li>
+<li>It handles entities who are present in the system at each snapshot time.</li>
+<li>Entities are ranked within each event based on their arrival order.</li>
+<li>A maximum number of patients per event can be set to limit the number of entities who will be displayed on screen within any one event type at a time.</li>
+<li>This function assumes entities only exist in one place/queue at a time. Simulations where this assumption does not hold may display unexpected behaviour.</li>
+<li>An ‘exit’ event is added for each entity at the end of their journey.</li>
+<li>The function uses memory management techniques (del and gc.collect()) to handle large datasets.</li>
+</ul>
 </section>
-<section id="scope" class="level2">
-<h2 class="anchored" data-anchor-id="scope">Scope</h2>
-<p>This Code of Conduct applies both within project spaces (e.g., GitHub issues, pull requests, discussions) and in public spaces when someone is representing the project or its community.</p>
-</section>
-<section id="enforcement" class="level2">
-<h2 class="anchored" data-anchor-id="enforcement">Enforcement</h2>
-<p>Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the maintainers via GitHub Issues or by direct contact. All complaints will be reviewed and investigated promptly and fairly.</p>
-</section>
-<section id="attribution" class="level2">
-<h2 class="anchored" data-anchor-id="attribution">Attribution</h2>
-<p>This Code of Conduct is adapted from the <a href="https://www.contributor-covenant.org/">Contributor Covenant</a>, version 2.1.</p>
+<section id="todo" class="level2 doc-section doc-section-todo">
+<h2 class="doc-section doc-section-todo anchored" data-anchor-id="todo">TODO</h2>
+<ul>
+<li>Add behavior for when limit_duration is None.</li>
+<li>Consider adding ‘first step’ and ‘last step’ parameters.</li>
+<li>Implement pathway order and precedence columns.</li>
+<li>Fix the automatic exit at the end of the simulation run for all entities.</li>
+</ul>
 
 
 </section>
