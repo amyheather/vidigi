@@ -946,7 +946,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h2 class="doc-section doc-section--notes anchored" data-anchor-id="notes">Notes</h2>
 <ul>
 <li>The overlay uses secondary axes (x2, y2) to position elements in paper coordinates (0 to 1 range) independent of the main plot’s data coordinates.</li>
-<li>The overlay pattern repeats with a cycle length of (on_duration_frames + off_duration_frames).</li>
+<li>The overlay pattern repeats with a cycle length of (on_duration_frames
+<ul>
+<li>off_duration_frames).</li>
+</ul></li>
 <li>Frame indexing is 0-based, so first_start_frame=0 means the overlay starts from the first frame.</li>
 <li>The condition <code>i &gt; start_frame</code> ensures the overlay doesn’t appear on the initial frame unless explicitly specified.</li>
 <li>This implementation works without requiring redraw=True in animation configurations, making it more efficient for complex animated plots.</li>
