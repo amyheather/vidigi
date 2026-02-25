@@ -131,6 +131,34 @@ ul.task-list li input[type="checkbox"] {
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-salabim-examples .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-project','listing-website','listing-quartodoc','listing-format','listing-language','listing-title','listing-image','listing-filters','listing-path','listing-outputHref','listing-author','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      
+      searchColumns: ["listing-project","listing-website","listing-quartodoc","listing-format","listing-language","listing-title","listing-image","listing-filters","listing-path","listing-outputHref","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-salabim-examples'] = new List('listing-salabim-examples', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
     const listingTargetEl = window.document.querySelector('#listing-advanced-examples .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
@@ -499,6 +527,7 @@ window.Quarto = {
   <ul>
   <li><a href="#simpy-examples" id="toc-simpy-examples" class="nav-link active" data-scroll-target="#simpy-examples">SimPy Examples</a></li>
   <li><a href="#ciw-examples" id="toc-ciw-examples" class="nav-link" data-scroll-target="#ciw-examples">Ciw Examples</a></li>
+  <li><a href="#salabim-examples" id="toc-salabim-examples" class="nav-link" data-scroll-target="#salabim-examples">Salabim Examples</a></li>
   <li><a href="#advanced-examples" id="toc-advanced-examples" class="nav-link" data-scroll-target="#advanced-examples">Advanced Examples</a></li>
   <li><a href="#agent-based-simulation-abs-examples" id="toc-agent-based-simulation-abs-examples" class="nav-link" data-scroll-target="#agent-based-simulation-abs-examples">Agent Based Simulation (ABS) Examples</a></li>
   <li><a href="#legacy-examples" id="toc-legacy-examples" class="nav-link" data-scroll-target="#legacy-examples">Legacy Examples</a></li>
@@ -536,7 +565,7 @@ window.Quarto = {
 <div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 450px)); gap: 20px;">
 
   
-    <div class="custom-grid-card border-2 rounded-3" data-index="0" data-listing-file-modified-sort="1770897032567" data-listing-reading-time-sort="1" data-listing-word-count-sort="84">
+    <div class="custom-grid-card border-2 rounded-3" data-index="0" data-listing-file-modified-sort="1772028332676" data-listing-reading-time-sort="1" data-listing-word-count-sort="84">
           <div class="main-card-content">
             
               <a href="../examples/example_1_simplest_case/ex_1_simplest_case.html">
@@ -559,7 +588,7 @@ window.Quarto = {
               </div>
 
             
-    <div class="custom-grid-card border-2 rounded-3" data-index="1" data-listing-file-modified-sort="1770897033483" data-listing-reading-time-sort="6" data-listing-word-count-sort="1177">
+    <div class="custom-grid-card border-2 rounded-3" data-index="1" data-listing-file-modified-sort="1772028333583" data-listing-reading-time-sort="6" data-listing-word-count-sort="1177">
           <div class="main-card-content">
             
               <a href="../vidigi_docs/basic_example_with_vidigi_logger_helpers_multiple_servers.html">
@@ -582,7 +611,7 @@ window.Quarto = {
               </div>
 
             
-    <div class="custom-grid-card border-2 rounded-3" data-index="2" data-listing-file-modified-sort="1770897033476" data-listing-reading-time-sort="6" data-listing-word-count-sort="1081">
+    <div class="custom-grid-card border-2 rounded-3" data-index="2" data-listing-file-modified-sort="1772028333576" data-listing-reading-time-sort="6" data-listing-word-count-sort="1081">
           <div class="main-card-content">
             
               <a href="../vidigi_docs/basic_example_with_vidigi_logger_helpers.html">
@@ -605,7 +634,7 @@ window.Quarto = {
               </div>
 
             
-    <div class="custom-grid-card border-2 rounded-3" data-index="3" data-listing-file-modified-sort="1770897033475" data-listing-reading-time-sort="6" data-listing-word-count-sort="1047">
+    <div class="custom-grid-card border-2 rounded-3" data-index="3" data-listing-file-modified-sort="1772028333575" data-listing-reading-time-sort="6" data-listing-word-count-sort="1047">
           <div class="main-card-content">
             
               <a href="../vidigi_docs/basic_example_minimal_required_vidigi_functions.html">
@@ -628,7 +657,7 @@ window.Quarto = {
               </div>
 
             
-    <div class="custom-grid-card border-2 rounded-3" data-index="4" data-listing-file-modified-sort="1770897032576" data-listing-reading-time-sort="1" data-listing-word-count-sort="67">
+    <div class="custom-grid-card border-2 rounded-3" data-index="4" data-listing-file-modified-sort="1772028332685" data-listing-reading-time-sort="1" data-listing-word-count-sort="67">
           <div class="main-card-content">
             
               <a href="../examples/example_2_branching_multistep/ex_2_branching_multistep_case.html">
@@ -651,7 +680,7 @@ window.Quarto = {
               </div>
 
             
-    <div class="custom-grid-card border-2 rounded-3" data-index="5" data-listing-file-modified-sort="1770897031998" data-listing-reading-time-sort="1" data-listing-word-count-sort="45">
+    <div class="custom-grid-card border-2 rounded-3" data-index="5" data-listing-file-modified-sort="1772028332105" data-listing-reading-time-sort="1" data-listing-word-count-sort="45">
           <div class="main-card-content">
             
               <a href="../examples/example_14_carwash/carwash.html">
@@ -674,7 +703,7 @@ window.Quarto = {
               </div>
 
             
-    <div class="custom-grid-card border-2 rounded-3" data-index="6" data-listing-file-modified-sort="1770897032941" data-listing-reading-time-sort="2" data-listing-word-count-sort="274">
+    <div class="custom-grid-card border-2 rounded-3" data-index="6" data-listing-file-modified-sort="1772028333041" data-listing-reading-time-sort="2" data-listing-word-count-sort="274">
           <div class="main-card-content">
             
               <a href="../examples/example_7_simplest_case_priority_resource_storewrapper/ex_7_simplest_case_priority_resource.html">
@@ -697,7 +726,7 @@ window.Quarto = {
               </div>
 
             
-    <div class="custom-grid-card border-2 rounded-3" data-index="7" data-listing-file-modified-sort="1770897032893" data-listing-reading-time-sort="1" data-listing-word-count-sort="153">
+    <div class="custom-grid-card border-2 rounded-3" data-index="7" data-listing-file-modified-sort="1772028332993" data-listing-reading-time-sort="1" data-listing-word-count-sort="153">
           <div class="main-card-content">
             
               <a href="../examples/example_6_simplest_case_storewrapper/ex_6_simplest_case.html">
@@ -732,7 +761,7 @@ window.Quarto = {
 <div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 450px)); gap: 20px;">
 
   
-    <div class="custom-grid-card border-2 rounded-3" data-index="0" data-listing-file-modified-sort="1770897031733" data-listing-reading-time-sort="2" data-listing-word-count-sort="267">
+    <div class="custom-grid-card border-2 rounded-3" data-index="0" data-listing-file-modified-sort="1772028331842" data-listing-reading-time-sort="2" data-listing-word-count-sort="267">
           <div class="main-card-content">
             
               <a href="../examples/example_10_advanced_ciw/ex_10_ciw.html">
@@ -755,7 +784,7 @@ window.Quarto = {
               </div>
 
             
-    <div class="custom-grid-card border-2 rounded-3" data-index="1" data-listing-file-modified-sort="1770897032669" data-listing-reading-time-sort="3" data-listing-word-count-sort="444">
+    <div class="custom-grid-card border-2 rounded-3" data-index="1" data-listing-file-modified-sort="1772028332781" data-listing-reading-time-sort="3" data-listing-word-count-sort="444">
           <div class="main-card-content">
             
               <a href="../examples/example_4_ciw/ex_4_ciw.html">
@@ -783,6 +812,41 @@ window.Quarto = {
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
 </section>
+<section id="salabim-examples" class="level2">
+<h2 class="anchored" data-anchor-id="salabim-examples">Salabim Examples</h2>
+<p>Models built using the Salabim package.</p>
+<div id="listing-salabim-examples" class="quarto-listing quarto-listing-container-custom">
+<div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 450px)); gap: 20px;">
+
+  
+    <div class="custom-grid-card border-2 rounded-3" data-index="0" data-listing-file-modified-sort="1772028333567" data-listing-reading-time-sort="5" data-listing-word-count-sort="974">
+          <div class="main-card-content">
+            
+              <a href="../examples/salabim_bank/salabim_bank.html">
+                <img class="card-img" src="../examples/salabim_bank/bank.gif" alt="A Simple Salabim Model">
+              </a>
+              
+
+              <div class="listing-title">
+                <h5 class="no-anchor card-title listing-title">A Simple Salabim Model</h5>
+            </div>
+
+            
+
+              </div>
+
+                <div class="details-listing">
+                  <button class="link-listing-button"><a href="../examples/salabim_bank/salabim_bank.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                </div>
+
+              </div>
+
+            
+          </div>
+
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
 <section id="advanced-examples" class="level2">
 <h2 class="anchored" data-anchor-id="advanced-examples">Advanced Examples</h2>
 <p>Advanced examples with more complex elements introduced. These are primarily written in SimPy, but a lot of the principles could be applied to ciw or other examples too.</p>
@@ -790,7 +854,7 @@ window.Quarto = {
 <div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 450px)); gap: 20px;">
 
   
-    <div class="custom-grid-card border-2 rounded-3" data-index="0" data-listing-file-modified-sort="1770897031970" data-listing-reading-time-sort="1" data-listing-word-count-sort="192">
+    <div class="custom-grid-card border-2 rounded-3" data-index="0" data-listing-file-modified-sort="1772028332077" data-listing-reading-time-sort="1" data-listing-word-count-sort="192">
           <div class="main-card-content">
             
               <a href="../examples/example_13_additional_synchronised_traces_method_1/synchronised_traces.html">
@@ -813,7 +877,7 @@ window.Quarto = {
               </div>
 
             
-    <div class="custom-grid-card border-2 rounded-3" data-index="1" data-listing-file-modified-sort="1770897033135" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+    <div class="custom-grid-card border-2 rounded-3" data-index="1" data-listing-file-modified-sort="1772028333237" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
           <div class="main-card-content">
             
               <a href="../examples/example_9_wide_resource_spacing_multiple/ex_9_model.html">
@@ -836,7 +900,7 @@ window.Quarto = {
               </div>
 
             
-    <div class="custom-grid-card border-2 rounded-3" data-index="2" data-listing-file-modified-sort="1770897032988" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+    <div class="custom-grid-card border-2 rounded-3" data-index="2" data-listing-file-modified-sort="1772028333089" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
           <div class="main-card-content">
             
               <a href="../examples/example_8_wide_resource_spacing/ex_8_model.html">
@@ -859,7 +923,7 @@ window.Quarto = {
               </div>
 
             
-    <div class="custom-grid-card border-2 rounded-3" data-index="3" data-listing-file-modified-sort="1770897032162" data-listing-reading-time-sort="4" data-listing-word-count-sort="734">
+    <div class="custom-grid-card border-2 rounded-3" data-index="3" data-listing-file-modified-sort="1772028332270" data-listing-reading-time-sort="4" data-listing-word-count-sort="734">
           <div class="main-card-content">
             
               <a href="../examples/example_17_resourceless_larger_queues/resourceless_longer_queues.html">
@@ -882,7 +946,7 @@ window.Quarto = {
               </div>
 
             
-    <div class="custom-grid-card border-2 rounded-3" data-index="4" data-listing-file-modified-sort="1770897032732" data-listing-reading-time-sort="1" data-listing-word-count-sort="87">
+    <div class="custom-grid-card border-2 rounded-3" data-index="4" data-listing-file-modified-sort="1772028332843" data-listing-reading-time-sort="1" data-listing-word-count-sort="87">
           <div class="main-card-content">
             
               <a href="../examples/example_5_simplest_case_wrapped_resources/ex_5_simplest_case_wrapped_resource.html">
@@ -905,7 +969,7 @@ window.Quarto = {
               </div>
 
             
-    <div class="custom-grid-card border-2 rounded-3" data-index="5" data-listing-file-modified-sort="1770897031877" data-listing-reading-time-sort="2" data-listing-word-count-sort="260">
+    <div class="custom-grid-card border-2 rounded-3" data-index="5" data-listing-file-modified-sort="1772028331985" data-listing-reading-time-sort="2" data-listing-word-count-sort="260">
           <div class="main-card-content">
             
               <a href="../examples/example_11_resourceless_animation/ex_11_resourceless.html">
@@ -928,7 +992,7 @@ window.Quarto = {
               </div>
 
             
-    <div class="custom-grid-card border-2 rounded-3" data-index="6" data-listing-file-modified-sort="1770897031931" data-listing-reading-time-sort="2" data-listing-word-count-sort="262">
+    <div class="custom-grid-card border-2 rounded-3" data-index="6" data-listing-file-modified-sort="1772028332038" data-listing-reading-time-sort="2" data-listing-word-count-sort="262">
           <div class="main-card-content">
             
               <a href="../examples/example_12_resourceless_with_back_and_forth/ex_12_resourceless_advanced.html">
@@ -951,7 +1015,7 @@ window.Quarto = {
               </div>
 
             
-    <div class="custom-grid-card border-2 rounded-3" data-index="7" data-listing-file-modified-sort="1770897032102" data-listing-reading-time-sort="2" data-listing-word-count-sort="232">
+    <div class="custom-grid-card border-2 rounded-3" data-index="7" data-listing-file-modified-sort="1772028332209" data-listing-reading-time-sort="2" data-listing-word-count-sort="232">
           <div class="main-card-content">
             
               <a href="../examples/example_16_packing_robot/packing_robot.html">
@@ -974,7 +1038,7 @@ window.Quarto = {
               </div>
 
             
-    <div class="custom-grid-card border-2 rounded-3" data-index="8" data-listing-file-modified-sort="1770897032615" data-listing-reading-time-sort="1" data-listing-word-count-sort="200">
+    <div class="custom-grid-card border-2 rounded-3" data-index="8" data-listing-file-modified-sort="1772028332721" data-listing-reading-time-sort="1" data-listing-word-count-sort="200">
           <div class="main-card-content">
             
               <a href="../examples/example_3_simplest_case_priority_resource/ex_3_simplest_case_priority_resource.html">
@@ -997,7 +1061,7 @@ window.Quarto = {
               </div>
 
             
-    <div class="custom-grid-card border-2 rounded-3" data-index="9" data-listing-file-modified-sort="1770897032444" data-listing-reading-time-sort="7" data-listing-word-count-sort="1277">
+    <div class="custom-grid-card border-2 rounded-3" data-index="9" data-listing-file-modified-sort="1772028332555" data-listing-reading-time-sort="7" data-listing-word-count-sort="1277">
           <div class="main-card-content">
             
               <a href="../examples/example_19_moving_resource/moving_resource.html">
@@ -1027,7 +1091,7 @@ move between rooms as they are needed.
               </div>
 
             
-    <div class="custom-grid-card border-2 rounded-3" data-index="10" data-listing-file-modified-sort="1770897032065" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+    <div class="custom-grid-card border-2 rounded-3" data-index="10" data-listing-file-modified-sort="1772028332172" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
           <div class="main-card-content">
             
               <a href="../examples/example_15_gas_station_refuelling/gas_station.html">
@@ -1062,7 +1126,7 @@ move between rooms as they are needed.
 <div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 450px)); gap: 20px;">
 
   
-    <div class="custom-grid-card border-2 rounded-3" data-index="0" data-listing-file-modified-sort="1770897032406" data-listing-reading-time-sort="5" data-listing-word-count-sort="813">
+    <div class="custom-grid-card border-2 rounded-3" data-index="0" data-listing-file-modified-sort="1772028332511" data-listing-reading-time-sort="5" data-listing-word-count-sort="813">
           <div class="main-card-content">
             
               <a href="../examples/example_18_vidigi_with_mesa_abs/vidigi_abs.html">
@@ -1097,7 +1161,7 @@ move between rooms as they are needed.
 <div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 450px)); gap: 20px;">
 
   
-    <div class="custom-grid-card border-2 rounded-3" data-index="0" data-listing-file-modified-sort="1770897033473" data-listing-reading-time-sort="48" data-listing-word-count-sort="9475">
+    <div class="custom-grid-card border-2 rounded-3" data-index="0" data-listing-file-modified-sort="1772028333574" data-listing-reading-time-sort="48" data-listing-word-count-sort="9475">
           <div class="main-card-content">
             
               <a href="../vidigi_docs/adding_vidigi_to_a_simple_simpy_model_hsma_structure_old.html">
@@ -1120,7 +1184,7 @@ move between rooms as they are needed.
               </div>
 
             
-    <div class="custom-grid-card border-2 rounded-3" data-index="1" data-listing-file-modified-sort="1770897033550" data-listing-reading-time-sort="5" data-listing-word-count-sort="812">
+    <div class="custom-grid-card border-2 rounded-3" data-index="1" data-listing-file-modified-sort="1772028333649" data-listing-reading-time-sort="5" data-listing-word-count-sort="812">
           <div class="main-card-content">
             
               <a href="../vidigi_docs/populating_event_logs.html">
