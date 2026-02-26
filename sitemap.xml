@@ -2,274 +2,274 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://amyheather.github.io/vidigi/examples/feat_vidigi_logging_class/feat_example_logging_class.html</loc>
-    <lastmod>2026-02-26T15:19:09.671Z</lastmod>
+    <lastmod>2026-02-26T16:31:29.490Z</lastmod>
   </url>
   <url>
     <loc>https://amyheather.github.io/vidigi/examples/feat_process_maps/process_maps.html</loc>
-    <lastmod>2026-02-26T15:19:09.603Z</lastmod>
+    <lastmod>2026-02-26T16:31:29.418Z</lastmod>
   </url>
   <url>
     <loc>https://amyheather.github.io/vidigi/examples/feat_changing_sim_time/feat_changing_sim_time.html</loc>
-    <lastmod>2026-02-26T15:19:09.472Z</lastmod>
+    <lastmod>2026-02-26T16:31:29.288Z</lastmod>
   </url>
   <url>
     <loc>https://amyheather.github.io/vidigi/examples/example_8_wide_resource_spacing/ex_8_model.html</loc>
-    <lastmod>2026-02-26T15:19:09.214Z</lastmod>
+    <lastmod>2026-02-26T16:31:29.022Z</lastmod>
   </url>
   <url>
     <loc>https://amyheather.github.io/vidigi/examples/example_6_simplest_case_storewrapper/ex_6_simplest_case.html</loc>
-    <lastmod>2026-02-26T15:19:09.124Z</lastmod>
+    <lastmod>2026-02-26T16:31:28.940Z</lastmod>
   </url>
   <url>
     <loc>https://amyheather.github.io/vidigi/examples/example_4_ciw/ex_4_ciw.html</loc>
-    <lastmod>2026-02-26T15:19:08.830Z</lastmod>
+    <lastmod>2026-02-26T16:31:28.680Z</lastmod>
   </url>
   <url>
     <loc>https://amyheather.github.io/vidigi/examples/example_2_branching_multistep/ex_2_branching_multistep_case.html</loc>
-    <lastmod>2026-02-26T15:19:08.734Z</lastmod>
+    <lastmod>2026-02-26T16:31:28.585Z</lastmod>
   </url>
   <url>
     <loc>https://amyheather.github.io/vidigi/examples/example_19_moving_resource/moving_resource.html</loc>
-    <lastmod>2026-02-26T15:19:08.604Z</lastmod>
+    <lastmod>2026-02-26T16:31:28.458Z</lastmod>
   </url>
   <url>
     <loc>https://amyheather.github.io/vidigi/examples/example_17_resourceless_larger_queues/resourceless_longer_queues.html</loc>
-    <lastmod>2026-02-26T15:19:08.324Z</lastmod>
+    <lastmod>2026-02-26T16:31:28.177Z</lastmod>
   </url>
   <url>
     <loc>https://amyheather.github.io/vidigi/examples/example_15_gas_station_refuelling/gas_station.html</loc>
-    <lastmod>2026-02-26T15:19:08.231Z</lastmod>
+    <lastmod>2026-02-26T16:31:28.079Z</lastmod>
   </url>
   <url>
     <loc>https://amyheather.github.io/vidigi/examples/example_13_additional_synchronised_traces_method_1/synchronised_traces.html</loc>
-    <lastmod>2026-02-26T15:19:08.138Z</lastmod>
+    <lastmod>2026-02-26T16:31:27.985Z</lastmod>
   </url>
   <url>
     <loc>https://amyheather.github.io/vidigi/examples/example_11_resourceless_animation/ex_11_resourceless.html</loc>
-    <lastmod>2026-02-26T15:19:08.050Z</lastmod>
+    <lastmod>2026-02-26T16:31:27.894Z</lastmod>
   </url>
   <url>
     <loc>https://amyheather.github.io/vidigi/vidigi_docs/roadmap.html</loc>
-    <lastmod>2026-02-26T15:19:09.770Z</lastmod>
+    <lastmod>2026-02-26T16:31:29.583Z</lastmod>
   </url>
   <url>
     <loc>https://amyheather.github.io/vidigi/vidigi_docs/populating_event_logs.html</loc>
-    <lastmod>2026-02-26T15:19:09.769Z</lastmod>
+    <lastmod>2026-02-26T16:31:29.582Z</lastmod>
   </url>
   <url>
     <loc>https://amyheather.github.io/vidigi/vidigi_docs/introduction.html</loc>
-    <lastmod>2026-02-26T15:19:09.769Z</lastmod>
+    <lastmod>2026-02-26T16:31:29.582Z</lastmod>
   </url>
   <url>
     <loc>https://amyheather.github.io/vidigi/vidigi_docs/getting_started.html</loc>
-    <lastmod>2026-02-26T15:19:09.696Z</lastmod>
+    <lastmod>2026-02-26T16:31:29.517Z</lastmod>
   </url>
   <url>
     <loc>https://amyheather.github.io/vidigi/vidigi_docs/changelog.html</loc>
-    <lastmod>2026-02-26T15:19:09.696Z</lastmod>
+    <lastmod>2026-02-26T16:31:29.516Z</lastmod>
   </url>
   <url>
     <loc>https://amyheather.github.io/vidigi/vidigi_docs/basic_example_with_vidigi_logger_helpers.html</loc>
-    <lastmod>2026-02-26T15:19:09.687Z</lastmod>
+    <lastmod>2026-02-26T16:31:29.508Z</lastmod>
   </url>
   <url>
     <loc>https://amyheather.github.io/vidigi/vidigi_docs/attribution_for_examples.html</loc>
-    <lastmod>2026-02-26T15:19:09.686Z</lastmod>
+    <lastmod>2026-02-26T16:31:29.506Z</lastmod>
   </url>
   <url>
     <loc>https://amyheather.github.io/vidigi/vidigi_docs/adding_vidigi_to_a_simple_simpy_model_hsma_structure.html</loc>
-    <lastmod>2026-02-26T15:19:09.685Z</lastmod>
+    <lastmod>2026-02-26T16:31:29.505Z</lastmod>
   </url>
   <url>
     <loc>https://amyheather.github.io/vidigi/reference/utils.create_event_position_df.html</loc>
-    <lastmod>2026-02-26T15:19:11.724Z</lastmod>
+    <lastmod>2026-02-26T16:31:31.710Z</lastmod>
   </url>
   <url>
     <loc>https://amyheather.github.io/vidigi/reference/resources.populate_store.html</loc>
-    <lastmod>2026-02-26T15:19:11.637Z</lastmod>
+    <lastmod>2026-02-26T16:31:31.613Z</lastmod>
   </url>
   <url>
     <loc>https://amyheather.github.io/vidigi/reference/resources.VidigiResource.html</loc>
-    <lastmod>2026-02-26T15:19:11.594Z</lastmod>
+    <lastmod>2026-02-26T16:31:31.565Z</lastmod>
   </url>
   <url>
     <loc>https://amyheather.github.io/vidigi/reference/resources.VidigiPriorityStore.html</loc>
-    <lastmod>2026-02-26T15:19:11.632Z</lastmod>
+    <lastmod>2026-02-26T16:31:31.607Z</lastmod>
   </url>
   <url>
     <loc>https://amyheather.github.io/vidigi/reference/process_mapping.discover_dfg.html</loc>
-    <lastmod>2026-02-26T15:19:11.736Z</lastmod>
+    <lastmod>2026-02-26T16:31:31.723Z</lastmod>
   </url>
   <url>
     <loc>https://amyheather.github.io/vidigi/reference/process_mapping.dfg_to_cytoscape_streamlit.html</loc>
-    <lastmod>2026-02-26T15:19:11.786Z</lastmod>
+    <lastmod>2026-02-26T16:31:31.776Z</lastmod>
   </url>
   <url>
     <loc>https://amyheather.github.io/vidigi/reference/process_mapping.add_sim_timestamp.html</loc>
-    <lastmod>2026-02-26T15:19:11.729Z</lastmod>
+    <lastmod>2026-02-26T16:31:31.715Z</lastmod>
   </url>
   <url>
     <loc>https://amyheather.github.io/vidigi/reference/prep.generate_animation_df.html</loc>
-    <lastmod>2026-02-26T15:19:11.566Z</lastmod>
+    <lastmod>2026-02-26T16:31:31.534Z</lastmod>
   </url>
   <url>
     <loc>https://amyheather.github.io/vidigi/reference/logging.EventLogger.html</loc>
-    <lastmod>2026-02-26T15:19:11.684Z</lastmod>
+    <lastmod>2026-02-26T16:31:31.666Z</lastmod>
   </url>
   <url>
     <loc>https://amyheather.github.io/vidigi/reference/ciw.event_log_from_ciw_recs.html</loc>
-    <lastmod>2026-02-26T15:19:11.793Z</lastmod>
+    <lastmod>2026-02-26T16:31:31.784Z</lastmod>
   </url>
   <url>
     <loc>https://amyheather.github.io/vidigi/reference/animation.animate_activity_log.html</loc>
-    <lastmod>2026-02-26T15:19:11.543Z</lastmod>
+    <lastmod>2026-02-26T16:31:31.510Z</lastmod>
   </url>
   <url>
     <loc>https://amyheather.github.io/vidigi/notes.html</loc>
-    <lastmod>2026-02-26T15:19:09.679Z</lastmod>
+    <lastmod>2026-02-26T16:31:29.498Z</lastmod>
   </url>
   <url>
     <loc>https://amyheather.github.io/vidigi/examples/feature_breakdowns.html</loc>
-    <lastmod>2026-02-26T15:19:09.673Z</lastmod>
+    <lastmod>2026-02-26T16:31:29.492Z</lastmod>
   </url>
   <url>
     <loc>https://amyheather.github.io/vidigi/examples/feat_frame_speed_post_hoc/feat_frame_speed_post_hoc.html</loc>
-    <lastmod>2026-02-26T15:19:09.474Z</lastmod>
+    <lastmod>2026-02-26T16:31:29.290Z</lastmod>
   </url>
   <url>
     <loc>https://amyheather.github.io/vidigi/examples/examples.html</loc>
-    <lastmod>2026-02-26T15:19:09.359Z</lastmod>
+    <lastmod>2026-02-26T16:31:29.171Z</lastmod>
   </url>
   <url>
     <loc>https://amyheather.github.io/vidigi/examples/feat_vidigi_vs_bupar/vidigi_vs_bupar.html</loc>
-    <lastmod>2026-02-26T15:19:09.673Z</lastmod>
+    <lastmod>2026-02-26T16:31:29.491Z</lastmod>
   </url>
   <url>
     <loc>https://amyheather.github.io/vidigi/examples/salabim_bank/salabim_bank.html</loc>
-    <lastmod>2026-02-26T15:19:09.678Z</lastmod>
+    <lastmod>2026-02-26T16:31:29.497Z</lastmod>
   </url>
   <url>
     <loc>https://amyheather.github.io/vidigi/reference/animation.add_repeating_overlay.html</loc>
-    <lastmod>2026-02-26T15:19:11.592Z</lastmod>
+    <lastmod>2026-02-26T16:31:31.563Z</lastmod>
   </url>
   <url>
     <loc>https://amyheather.github.io/vidigi/reference/animation.generate_animation.html</loc>
-    <lastmod>2026-02-26T15:19:11.587Z</lastmod>
+    <lastmod>2026-02-26T16:31:31.557Z</lastmod>
   </url>
   <url>
     <loc>https://amyheather.github.io/vidigi/reference/index.html</loc>
-    <lastmod>2026-02-26T15:19:11.497Z</lastmod>
+    <lastmod>2026-02-26T16:31:31.461Z</lastmod>
   </url>
   <url>
     <loc>https://amyheather.github.io/vidigi/reference/logging.TrialLogger.html</loc>
-    <lastmod>2026-02-26T15:19:11.719Z</lastmod>
+    <lastmod>2026-02-26T16:31:31.704Z</lastmod>
   </url>
   <url>
     <loc>https://amyheather.github.io/vidigi/reference/prep.reshape_for_animations.html</loc>
-    <lastmod>2026-02-26T15:19:11.552Z</lastmod>
+    <lastmod>2026-02-26T16:31:31.519Z</lastmod>
   </url>
   <url>
     <loc>https://amyheather.github.io/vidigi/reference/process_mapping.dfg_to_cytoscape.html</loc>
-    <lastmod>2026-02-26T15:19:11.773Z</lastmod>
+    <lastmod>2026-02-26T16:31:31.763Z</lastmod>
   </url>
   <url>
     <loc>https://amyheather.github.io/vidigi/reference/process_mapping.dfg_to_graphviz.html</loc>
-    <lastmod>2026-02-26T15:19:11.753Z</lastmod>
+    <lastmod>2026-02-26T16:31:31.741Z</lastmod>
   </url>
   <url>
     <loc>https://amyheather.github.io/vidigi/reference/process_mapping.process_nodes_and_edges_for_cytoscape.html</loc>
-    <lastmod>2026-02-26T15:19:11.761Z</lastmod>
+    <lastmod>2026-02-26T16:31:31.750Z</lastmod>
   </url>
   <url>
     <loc>https://amyheather.github.io/vidigi/reference/resources.VidigiPriorityStoreLegacy.html</loc>
-    <lastmod>2026-02-26T15:19:11.795Z</lastmod>
+    <lastmod>2026-02-26T16:31:31.786Z</lastmod>
   </url>
   <url>
     <loc>https://amyheather.github.io/vidigi/reference/resources.VidigiStore.html</loc>
-    <lastmod>2026-02-26T15:19:11.612Z</lastmod>
+    <lastmod>2026-02-26T16:31:31.586Z</lastmod>
   </url>
   <url>
     <loc>https://amyheather.github.io/vidigi/reference/utils.EventPosition.html</loc>
-    <lastmod>2026-02-26T15:19:11.722Z</lastmod>
+    <lastmod>2026-02-26T16:31:31.708Z</lastmod>
   </url>
   <url>
     <loc>https://amyheather.github.io/vidigi/reference/utils.streamlit_play_all.html</loc>
-    <lastmod>2026-02-26T15:19:11.788Z</lastmod>
+    <lastmod>2026-02-26T16:31:31.779Z</lastmod>
   </url>
   <url>
     <loc>https://amyheather.github.io/vidigi/vidigi_docs/adding_vidigi_to_a_simple_simpy_model_hsma_structure_old.html</loc>
-    <lastmod>2026-02-26T15:19:09.685Z</lastmod>
+    <lastmod>2026-02-26T16:31:29.505Z</lastmod>
   </url>
   <url>
     <loc>https://amyheather.github.io/vidigi/vidigi_docs/basic_example_minimal_required_vidigi_functions.html</loc>
-    <lastmod>2026-02-26T15:19:09.686Z</lastmod>
+    <lastmod>2026-02-26T16:31:29.507Z</lastmod>
   </url>
   <url>
     <loc>https://amyheather.github.io/vidigi/vidigi_docs/basic_example_with_vidigi_logger_helpers_multiple_servers.html</loc>
-    <lastmod>2026-02-26T15:19:09.694Z</lastmod>
+    <lastmod>2026-02-26T16:31:29.514Z</lastmod>
   </url>
   <url>
     <loc>https://amyheather.github.io/vidigi/vidigi_docs/code_of_conduct.html</loc>
-    <lastmod>2026-02-26T15:19:09.696Z</lastmod>
+    <lastmod>2026-02-26T16:31:29.516Z</lastmod>
   </url>
   <url>
     <loc>https://amyheather.github.io/vidigi/vidigi_docs/index.html</loc>
-    <lastmod>2026-02-26T15:19:09.769Z</lastmod>
+    <lastmod>2026-02-26T16:31:29.582Z</lastmod>
   </url>
   <url>
     <loc>https://amyheather.github.io/vidigi/vidigi_docs/licence.html</loc>
-    <lastmod>2026-02-26T15:19:09.769Z</lastmod>
+    <lastmod>2026-02-26T16:31:29.582Z</lastmod>
   </url>
   <url>
     <loc>https://amyheather.github.io/vidigi/vidigi_docs/release_notes.html</loc>
-    <lastmod>2026-02-26T15:19:09.770Z</lastmod>
+    <lastmod>2026-02-26T16:31:29.583Z</lastmod>
   </url>
   <url>
     <loc>https://amyheather.github.io/vidigi/examples/example_10_advanced_ciw/ex_10_ciw.html</loc>
-    <lastmod>2026-02-26T15:19:07.911Z</lastmod>
+    <lastmod>2026-02-26T16:31:27.752Z</lastmod>
   </url>
   <url>
     <loc>https://amyheather.github.io/vidigi/examples/example_12_resourceless_with_back_and_forth/ex_12_resourceless_advanced.html</loc>
-    <lastmod>2026-02-26T15:19:08.101Z</lastmod>
+    <lastmod>2026-02-26T16:31:27.947Z</lastmod>
   </url>
   <url>
     <loc>https://amyheather.github.io/vidigi/examples/example_14_carwash/carwash.html</loc>
-    <lastmod>2026-02-26T15:19:08.165Z</lastmod>
+    <lastmod>2026-02-26T16:31:28.012Z</lastmod>
   </url>
   <url>
     <loc>https://amyheather.github.io/vidigi/examples/example_16_packing_robot/packing_robot.html</loc>
-    <lastmod>2026-02-26T15:19:08.267Z</lastmod>
+    <lastmod>2026-02-26T16:31:28.117Z</lastmod>
   </url>
   <url>
     <loc>https://amyheather.github.io/vidigi/examples/example_18_vidigi_with_mesa_abs/vidigi_abs.html</loc>
-    <lastmod>2026-02-26T15:19:08.564Z</lastmod>
+    <lastmod>2026-02-26T16:31:28.417Z</lastmod>
   </url>
   <url>
     <loc>https://amyheather.github.io/vidigi/examples/example_1_simplest_case/ex_1_simplest_case.html</loc>
-    <lastmod>2026-02-26T15:19:08.727Z</lastmod>
+    <lastmod>2026-02-26T16:31:28.576Z</lastmod>
   </url>
   <url>
     <loc>https://amyheather.github.io/vidigi/examples/example_3_simplest_case_priority_resource/ex_3_simplest_case_priority_resource.html</loc>
-    <lastmod>2026-02-26T15:19:08.770Z</lastmod>
+    <lastmod>2026-02-26T16:31:28.622Z</lastmod>
   </url>
   <url>
     <loc>https://amyheather.github.io/vidigi/examples/example_5_simplest_case_wrapped_resources/ex_5_simplest_case_wrapped_resource.html</loc>
-    <lastmod>2026-02-26T15:19:08.889Z</lastmod>
+    <lastmod>2026-02-26T16:31:28.741Z</lastmod>
   </url>
   <url>
     <loc>https://amyheather.github.io/vidigi/examples/example_7_simplest_case_priority_resource_storewrapper/ex_7_simplest_case_priority_resource.html</loc>
-    <lastmod>2026-02-26T15:19:09.175Z</lastmod>
+    <lastmod>2026-02-26T16:31:28.988Z</lastmod>
   </url>
   <url>
     <loc>https://amyheather.github.io/vidigi/examples/example_9_wide_resource_spacing_multiple/ex_9_model.html</loc>
-    <lastmod>2026-02-26T15:19:09.357Z</lastmod>
+    <lastmod>2026-02-26T16:31:29.169Z</lastmod>
   </url>
   <url>
     <loc>https://amyheather.github.io/vidigi/examples/feat_gauge_only_animations/feat_gauge_only_animations.html</loc>
-    <lastmod>2026-02-26T15:19:09.560Z</lastmod>
+    <lastmod>2026-02-26T16:31:29.377Z</lastmod>
   </url>
   <url>
     <loc>https://amyheather.github.io/vidigi/examples/feat_repeating_overlay/feat_repeating_overlay.html</loc>
-    <lastmod>2026-02-26T15:19:09.666Z</lastmod>
+    <lastmod>2026-02-26T16:31:29.484Z</lastmod>
   </url>
 </urlset>
